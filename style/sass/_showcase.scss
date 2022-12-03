@@ -1,0 +1,35 @@
+main#showcase {
+    .container {
+        background-color: #000;
+        height: 620px;
+        
+        .portion {
+            margin-left: 80px;
+            h2 {
+                padding: 55px 0 126px 0;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 130%;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            
+            p {
+                margin: 0 0 80px 0;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 167.5%;
+                color: #FFFFFF;
+            }
+            
+            a {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 167.5%;
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+}

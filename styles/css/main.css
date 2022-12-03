@@ -1,0 +1,252 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.portion {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+header#main-header .container {
+  margin-bottom: 15px;
+}
+header#main-header .container p {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 168%;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #000000;
+}
+header#main-header .container .navbar {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+header#main-header .container .navbar ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+header#main-header .container .navbar ul li {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: #000000;
+}
+header#main-header .container .navbar ul li:hover {
+  color: #a19e9e;
+  transform: rotateX(30deg);
+  transition: 0.5s;
+}
+header#main-header .container .navbar .logo {
+  margin-left: 30px;
+  padding: 0;
+}
+header#main-header .container .navbar .header-icons {
+  display: flex;
+  gap: 13px;
+  margin-right: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Oswald";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main#showcase .container {
+  background-color: #000;
+  height: 620px;
+}
+main#showcase .container .portion {
+  margin-left: 80px;
+}
+main#showcase .container .portion h2 {
+  padding: 55px 0 126px 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+main#showcase .container .portion p {
+  margin: 0 0 80px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 167.5%;
+  color: #FFFFFF;
+}
+main#showcase .container .portion a {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 167.5%;
+  color: #FFFFFF;
+}
+
+section#gym-first .container {
+  background-color: #000;
+  height: 540px;
+  padding-top: 60px;
+}
+section#gym-first .container .portion img {
+  padding: 30px;
+}
+section#gym-first .container .portion h5 {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 90px 0 10px 30px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 167.5%;
+  color: #FFFFFF;
+}
+section#gym-first .container .portion p {
+  width: 425px;
+  margin-left: 50px;
+  padding: 10px 0 10px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 167.5%;
+  color: #FFFFFF;
+}
+
+section#gym-second .container {
+  background-color: #000;
+  height: 560px;
+  padding-top: 50px;
+}
+section#gym-second .container .portion h2 {
+  width: 417px;
+  margin: 102px 0 200px 80px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 143%;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+section#cards .container {
+  padding-top: 40px;
+  height: 600px;
+}
+section#cards .container h4 {
+  padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000000;
+}
+section#cards .container .card {
+  padding: 10px;
+  gap: 20px;
+}
+section#cards .container .card .card-text p {
+  margin: 6px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 168%;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+footer#footer .container {
+  height: 420px;
+  margin-top: 60px;
+  background-color: #f1f1f1;
+}
+footer#footer .container .portion .foot-aside {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+footer#footer .container .portion .foot-title {
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #000000;
+}
+footer#footer .container .portion .foot-text {
+  gap: 320px;
+  padding-bottom: 10px;
+}
+footer#footer .container .portion .foot-text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 141.8%;
+  color: #000000;
+  opacity: 0.5;
+}
+footer#footer .container .portion .foot-hr {
+  width: 420px;
+  border-bottom: solid 1px #C4C4C4;
+}
+footer#footer .container .portion .foot-links {
+  gap: 10px;
+  padding-top: 20px;
+}
+footer#footer .container .portion .foot-bside {
+  margin: 80px 0 0 100px;
+  gap: 120px;
+}
+footer#footer .container .portion .foot-bside ul p {
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #353535;
+}
+footer#footer .container .portion .foot-bside ul li {
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 167.5%;
+  color: #7E7E7E;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 1020px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 720px;
+  }
+}/*# sourceMappingURL=main.css.map */

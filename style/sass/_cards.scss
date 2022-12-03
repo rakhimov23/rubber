@@ -1,0 +1,32 @@
+section#cards {
+    .container {
+        padding-top: 40px;
+        height: 600px;
+        h4 {
+            padding-bottom: 30px;
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 130%;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        
+        .card {
+            padding: 10px;
+            gap: 20px;
+            
+            .card-text {
+                p {
+                    margin: 6px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 168%;
+                    letter-spacing: 0.16em;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

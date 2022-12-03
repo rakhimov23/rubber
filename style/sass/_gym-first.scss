@@ -1,0 +1,33 @@
+section#gym-first {
+    .container {
+        background-color: #000;
+        height: 540px;
+        padding-top: 60px;
+        .portion {
+            img {
+                padding: 30px;
+            }
+            
+            h5 {
+                margin-left: 50px;
+                margin-bottom: 20px;
+                padding: 90px 0 10px 30px ;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 167.5%;
+                color: #FFFFFF;
+            }
+            
+            p {
+                width: 425px;
+                margin-left: 50px;
+                padding: 10px 0 10px 30px ;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 167.5%;
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+}
